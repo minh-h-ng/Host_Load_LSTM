@@ -2,9 +2,9 @@ import csv
 import numpy as np
 
 #result_file_1 = './results/val500_group2_random_seq24_hidden128_layer1_batch39_stateless'
-result_file_1 = './results/LSTM_best'
+result_file_1 = './results/EC_LSTM_best'
 #result_file_2 = './results/val500_group1_random_seq24_hidden128_layer1_batch39_stateless'
-result_file_2 = './results/LSTM_real'
+result_file_2 = './results/EC_LSTM_real'
 
 results1 = []
 with open(result_file_1, 'r') as f:

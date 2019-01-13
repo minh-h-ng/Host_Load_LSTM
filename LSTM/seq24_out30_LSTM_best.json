@@ -4,14 +4,12 @@
   "hosts_per_group": 1,
   "cluster": "random",
   "sequence_length": 24,
-  "output_length": 6,
+  "output_length": 30,
   "hidden_size": 128,
   "num_layers": 1,
   "batch_size": 26,
-  "truncated_length": 32,
-  "lstm_state": "stateless",
   "n_max_epochs": 90,
   "n_early_stop_epochs": 0,
-  "model": "EC_LSTM",
+  "model": "LSTM",
   "eval": "best"
 }

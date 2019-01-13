@@ -29,7 +29,9 @@ class VanillaLSTM(nn.Module):
 
     def forward(self, x):
         # forward propagate LSTM
-        if self.config['lstm_state'] == 'stateless':
+        out, self.hidden = self.rnn(x)
+
+        """if self.config['lstm_state'] == 'stateless':
             out, self.hidden = self.rnn(x)
         elif self.config['lstm_state'] == 'stateful':
             out, self.hidden = self.rnn(x, self.hidden)
@@ -37,7 +39,7 @@ class VanillaLSTM(nn.Module):
             self.hidden = self.hidden.detach()
         else:
             logger.info('Program exiting: lstm_state in config not recognizable')
-            sys.exit(0)
+            sys.exit(0)"""
 
         if self.config['model'] == 'EC_LSTM':
             out, self.hidden = self.decoder(out)
