@@ -1,0 +1,7 @@
+2019-01-11 03:46:26,766 __main__     INFO     PROGRAM START!
+2019-01-11 03:46:26,766 __main__     INFO     lstmconfig: {'mode': 'val', 'number_of_hosts': 12583, 'hosts_per_group': 1, 'cluster': 'random', 'sequence_length': 24, 'output_length': 6, 'hidden_size': 128, 'num_layers': 1, 'batch_size': 26, 'truncated_length': 32, 'lstm_state': 'stateless', 'n_max_epochs': 90, 'n_early_stop_epochs': 0, 'model': 'EC_LSTM'}
+2019-01-11 03:46:26,766 __main__     INFO     outbase:/home/minh/Desktop/host_LSTM
+2019-01-11 03:46:26,766 __main__     INFO     predictiondir: /home/minh/Desktop/host_LSTM/predictions
+2019-01-11 03:46:26,804 __main__     INFO     Processing 5.csv
+here ECLSTM!
+Epoch:   0%|                                             | 0/89 [00:00<?, ?it/s]Epoch:   3%|█▏                                   | 3/89 [00:00<00:02, 29.03it/s]Epoch:   7%|██▍                                  | 6/89 [00:00<00:02, 28.58it/s]Epoch:  11%|████                                | 10/89 [00:00<00:02, 29.18it/s]Epoch:  16%|█████▋                              | 14/89 [00:00<00:02, 30.04it/s]Epoch:  20%|███████▎                            | 18/89 [00:00<00:02, 30.74it/s]Epoch:  25%|████████▉                           | 22/89 [00:00<00:02, 31.42it/s]Epoch:  29%|██████████▌                         | 26/89 [00:00<00:01, 32.05it/s]Epoch:  34%|████████████▏                       | 30/89 [00:00<00:01, 32.42it/s]Epoch:  38%|█████████████▊                      | 34/89 [00:01<00:01, 32.62it/s]

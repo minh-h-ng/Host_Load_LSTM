@@ -1,0 +1,5 @@
+{
+  "number_of_hosts": 500,
+  "hosts_per_group": 2,
+  "cluster": "random"
+}
